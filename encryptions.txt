@@ -1,0 +1,14 @@
+Original Message: This is a secret!!!
+Encrypted Message: gAAAAABmfxona3kmdFOOAj39oNHrl1LC4mTgIK_SWV04WDn58U2RPO8sa7YPc5w8VE0w6simIqKxlTBCd85KSAP1p11RFe6DqmKTMnzXlLMq3Dq1FycV8eQ=
+Decrypted Message: This is a secret!!!
+
+Original Message: you can't tell anyone...
+Encrypted Message: gAAAAABmfxpGQHr8oD8dDRptx_ugdRTjOFEIHYKIaqtvqNAD8sWd6vCQfcqmQtHbRXLBbY0YatkRA75y1YNQ0hajxNGXUUaRm8BzMkONKeSNUDF0x3lA9dI=
+Decrypted Message: you can't tell anyone...
+
+Original Message: Encryption is weird
+Encrypted Message: gAAAAABmfxrcIZWkmebW6TUWFHcG15wVeWkFj9hJv9pIj-1038I0yBwD17lO1wW8-I4zXaxhZDj1mhh4UL-UX_5aj57Q9cBYWrjtcKLCd85IdjLhcdC6C8Q=
+Decrypted Message: Encryption is weird
+
+Decrypted Message: this is a secretttttttt
+
