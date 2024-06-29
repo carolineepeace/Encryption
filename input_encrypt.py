@@ -14,31 +14,20 @@ message = input("Enter the message you want encrypted: ")
 #Encrypts the message input from user
 ##Encodes the message so it can be encrypted
 encrypt_message = fernet.encrypt(message.encode())
-
-#Creates and opens file to log the user's original message
-with open("encryptions.txt", "a") as file:
-    file.write(f"Original Message: {message}\n")
-    file.close()
-
-#Opens the file to log the encrypted version of the user's message
-with open("encryptions.txt", "ab") as file:
-    file.write(b"Encrypted Message: ")
-    file.write(encrypt_message)
-    file.write(b"\n")
-    file.close()
-
-#Prints the message before and after encryption
-print("Message before encryption: ", message)
-print("Message after encryption: ", encrypt_message)
-
 #Decrypts the encrypted message from above
 ##Decodes the message so it can be decrypted
 decrypt_message = fernet.decrypt(encrypt_message).decode()
 
-#Opens the file to log the decrypted version of the user's encrypted message
+#Creates and opens file to log the user's original message
 with open("encryptions.txt", "a") as file:
+    file.write(f"Original Message: {message}\n")
+    file.write(f"Encrypted Message: {encrypt_message.decode()}\n")
     file.write(f"Decrypted Message: {decrypt_message}\n\n")
     file.close()
 
+#Opens the file to log the encrypted version of the user's message
+#Prints the message before and after encryption
+print("Message before encryption: ", message)
+print("Message after encryption: ", encrypt_message)
 #Prints the message back after the encrypted message was decrypted
 print("Message after decryption: ", decrypt_message)
